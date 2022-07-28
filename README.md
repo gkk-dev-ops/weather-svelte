@@ -1,38 +1,29 @@
-# create-svelte
+# Weather-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## What's that?
 
-## Creating a project
+Based on [react weather-app](https://github.com/Pookacz/weather-app) app (this repo) and [design](https://www.figma.com/file/yMZDGCUYZ95xXaA0EZyLib/pookacz-weather-app?node-id=0%3A1) svelte version using openstreetmap for localization and openweathermap for current weather and forecast data.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Usage
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+To install dependencies:
 
-# create a new project in my-app
-npm create svelte@latest my-app
+```sh
+cd weather-svelte
+npm install
 ```
 
-## Developing
+and to run start app locally
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
+```sh
 npm run dev -- --open
 ```
 
-## Building
+To search weather in your city just type the name and press search 😊🌤
+![search screen](readmeFiles/mainscreen.png)
 
-To create a production version of your app:
+And  here you go 😁
+![example city screen](readmeFiles/exampleCity.png)
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+In case app fails to find your place you'll get city not found page so you can try search different locations near by 😅
+![city not found screen](readmeFiles/citynotfound.png)

@@ -1,0 +1,37 @@
+@import '../vars';
+@import '../global';
+
+.forecastTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav {
+    justify-content: center;
+    display: flex;
+    padding: 10px 0 30px 0;
+    margin: 20px auto 20px auto;
+
+    border-bottom: 2px solid $color-accent-1;
+    & button {
+      padding: 40px;
+      border-radius: 20px;
+      margin: 10px;
+      border: 2px solid transparent;
+      &:hover,
+      &:focus {
+        border: solid 2px $color-accent-1;
+      }
+    }
+  }
+
+  .title {
+    text-align: center;
+    font-size: 60px;
+    & h1 {
+      margin-bottom: 0;
+      margin: 25px 0 0 0;
+    }
+  }

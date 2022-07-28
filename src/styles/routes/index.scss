@@ -1,0 +1,27 @@
+@import '../vars';
+@import '../global';
+
+h1{
+    font-size: 60px;
+    color: $color-dark-1;
+}
+
+.container{
+margin: 0 auto;
+height: 1024px;
+width: 1440px;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+margin-top: -100px;
+}
+
+img{
+    width: 75px;
+    margin: 0 0 15px 0;
+}
+
+:global(body) {
+    background-color: $color-primary-1;
+}
